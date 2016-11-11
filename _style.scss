@@ -1,0 +1,9 @@
+@import "./config";
+@import './node_modules/colors/style';
+
+button {
+	background: map-get($brand-primary-palette, 300);
+	color: map-get($brand-primary-palette, 100);
+	border: 0;
+	padding: 15px;
+}

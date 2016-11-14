@@ -6,4 +6,5 @@ button {
 	color: map-get($brand-primary-palette, 100);
 	border: 0;
 	padding: 15px;
+	border-radius: $button-border-radius;
 }

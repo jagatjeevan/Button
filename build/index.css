@@ -1,8 +1,14 @@
-button {
-  background: #7094b8;
-  color: #4775a3;
+.button {
+  background: #000;
+  color: white;
   border: 0;
-  padding: 15px;
+  padding: 10px 15px;
   border-radius: 5px; }
+  .button.primary {
+    background: #3B73B3;
+    color: #c48c4c; }
+  .button.secondary {
+    background: #F5A53D;
+    color: #0a5ac2; }
 
 /*# sourceMappingURL=index.css.map */

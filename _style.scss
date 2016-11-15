@@ -1,10 +1,18 @@
-@import "./config";
 @import './node_modules/colors/style';
+@import "./config";
 
-button {
-	background: map-get($brand-primary-palette, 300);
-	color: map-get($brand-primary-palette, 100);
+.button {
+	background: $button-background;
+	color: invert($button-background);
 	border: 0;
-	padding: 15px;
+	padding: $button-padding;
 	border-radius: $button-border-radius;
+	&.primary {
+		background: $brand-primary;
+		color: invert($brand-primary);
+	}
+	&.secondary {
+		background: $brand-secondary;
+		color: invert($brand-secondary);
+	}
 }
